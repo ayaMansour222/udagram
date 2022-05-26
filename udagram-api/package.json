@@ -7,7 +7,7 @@
     "start": "node ./www/server.js",
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
-    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
