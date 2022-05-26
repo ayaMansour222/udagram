@@ -29,10 +29,10 @@ jobs:
           name: Back-End Build
           command: |
             npm run udagram-api:build
-     - run:
-          name: Deploy App API
-          command: |
-            npm run udagram-api:deploy
+            -run:
+              name: Deploy App API
+              command: |
+              npm run udagram-api:deploy 
       - run:
           name: Deploy App Front
           command: |
