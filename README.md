@@ -6,4 +6,4 @@ we followed  the following steps:
 2- Create scripts to deploy each component of the application.
 3- Create and document an automated pipeline using CircleCI.
 
-
+Link to front end App >>> http://frontapp-123456789-bucket.s3-website-us-east-1.amazonaws.com
