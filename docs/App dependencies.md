@@ -26,13 +26,13 @@ Dependencies of udagram-frontend Frontend application:
 
 4-angular/forms         :Implements a set of directives and providers to communicate with native DOM elements when building forms to capture user input.
 
-5-angular/http          :Implements an HTTP client API for Angular apps .
-6-angular/platform-browser: Supports execution of Angular apps on different supported browsers.
-7-angular/platform-browser-dynamic: Supports JIT compilation and execution of Angular apps on different supported browsers.
-8-angular/router        :Implements the Angular Router service , which enables navigation from one view to the next .
-9-ionic-native/splash-screen :This plugin displays and hides a splash screen during application launch.
-10-ionic-native/status-bar   :Manage the appearance of the native status bar.
-11-ionic/angular             :UI toolkit for building performant, high-quality mobile and desktop apps using web technologies  with  integrations for popular frameworks like Angular
+5-angular/http                      :Implements an HTTP client API for Angular apps .
+6-angular/platform-browser          : Supports execution of Angular apps on different supported browsers.
+7-angular/platform-browser-dynamic  : Supports JIT compilation and execution of Angular apps on different supported browsers.
+8-angular/router                    :Implements the Angular Router service , which enables navigation from one view to the next .
+9-ionic-native/splash-screen        :This plugin displays and hides a splash screen during application launch.
+10-ionic-native/status-bar          :Manage the appearance of the native status bar.
+11-ionic/angular                    :UI toolkit for building performant, high-quality mobile and desktop apps using web technologies  with  integrations for popular frameworks like Angular
 12-core-js                         :Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2021.
-13- rxjs : Reactive Extensions Library for JavaScript.
-14-zone.js:Implements Zones for JavaScript.
+13- rxjs                           : Reactive Extensions Library for JavaScript.
+14-zone.js                         :Implements Zones for JavaScript.

@@ -1,4 +1,5 @@
 Pipeline process consists of different parts and we will demonstrate each part as follow:
+=========================================================================================
 
 1- Orbs: Orbs part used to illustrate and configure third part tools as services and packages used to build and deploy my software .As follow Orbs used in the application>>
 
@@ -13,7 +14,7 @@ Pipeline process consists of different parts and we will demonstrate each part a
         2- steps :
 
             2.1. node/install : install Node.js version "16.13.2".
-            2.2. checkout     : check the source code uploaded tp Githup.
+            2.2. checkout     : check the source code uploaded to Githup.
             2.3. aws-cli/setup: setup AWS command-line interface.
             2.4. eb/setup     : setup AWS Elastic Beanstalk with CircleCI.
             2.5. run          :
