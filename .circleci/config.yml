@@ -30,6 +30,14 @@ jobs:
           command: |
             npm run udagram-api:build
       - run:
+          name: Back-End Test
+          command:  |
+            npm run udagram-api:test
+      - run:
+          name: Front-End Test
+          command:  |
+            npm run udagram-frontend:test
+      - run:
           name: Deploy App API
           command: |
             npm run udagram-api:deploy 
